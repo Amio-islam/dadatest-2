@@ -1,0 +1,214 @@
+
+
+
+.profile{
+  position: relative;
+}
+.img::after{
+  content: "";
+  background-color: rgb(31, 224, 5);
+  border-radius: 50%;
+  width:15px;
+  height: 15px;
+  position: absolute;
+  bottom:0;
+  right: 31.5%;
+ 
+}
+.left-side h4{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.Font-end{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.icon a{
+  font-size: 15px;
+  display: inline-block;
+  background:var(--yellow);
+  color: #fff;
+  line-height: 1;
+  padding: 9px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 30px;
+  transition: 0.3s;
+}
+.icon a :hover,a{
+
+color:#121df0;
+transition: 0.2s;
+}
+
+.brack{
+  color: #f8ecec;
+ padding: 1.5px 0px;
+ 
+}
+/* left-content */
+.left-content{
+  align-items: center;
+  display: flex;
+}
+.left-content h2{
+  font-size:15px;
+  color: #000;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin-top: 5px;
+}
+.left-content-div1{
+  background-color:var(--yellow) ;
+}
+.left-content-div2 h2{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+.left-content-div3 h2{
+  font-size: 16px;
+  color: #7EB942;
+  font-weight: 400;
+}
+.left-content-div4 h2{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.skillbar-section{
+  margin: 20px 0px;
+}
+.title{
+  text-align: start;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.skillbar{
+  width: 100%;
+}
+.skillbar h2{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.skillbar-border{
+  width: 100%;
+  height: 13px;
+  border: 1px solid #FFB400;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+.skillbar-item{
+  height: 5px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+}
+.extra-shills a{
+  display: block;
+  text-align: start;
+  margin: 5px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400; 
+}
+.extra-shills a i{
+margin-right: 10px;
+color: var(--blue);
+}
+
+
+
+.download{
+  height: 40px;
+  background-color: var(--yellow);
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+
+}
+.download i{
+ margin-left: 5px;
+  font-size: 15px;
+}
+
+
+.bg-image{
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide-lorem{
+  font-size: 14;
+  color: #fff;
+  opacity: 40%;
+
+}
+.student-date{
+  font-size: 10px;
+  padding: 5px;
+  background-color: #f8b61c;
+  
+
+}
+
+.icon-right{
+  height: 245vh;
+  text-align: center;
+}
+
+.icon-right div{
+width:50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.icon-right div div{
+  background-color: #767676;
+}
+.icon-right div div:hover{
+  background-color:var(--yellow);
+  transition: 0.s;
+}
+.icon-right div div a {
+ color: #fff;
+ font-size: 18px;
+}
+
+
+#riteSideModal{
+width: 13%;
+float: right;
+align-items: center;
+margin-left: 85%;
+}
+
+@media (max-width:768px) {
+  .right-icon{
+    height: 90vh;
+  }
+}
+
+:root {
+  --yellow: #FFB400;
+  --white: #ffffff;
+}
+body{
+  background-color: #000000;
+}
